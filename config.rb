@@ -43,6 +43,8 @@ end
 activate :relative_assets
 set :relative_links, true
 
+set :partials_dir, 'partials'
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper
